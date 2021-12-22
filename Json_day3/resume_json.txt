@@ -1,0 +1,72 @@
+Create your own resume data in JSON format.
+====>
+{
+    "personalDetails": {
+        "email": "deeksha18495@gmail.com",
+        "name": "Deeksha Tripathi",
+        "position": "Application Developer",
+        "phone": "+917709048056",
+        "location": {
+            "address": "Q.No E30/1 Railway Colony",
+            "pinCode": "481776",
+            "city": "Nainpur",
+            "state": "Madhya Pradesh",
+            "country": "India",
+        }
+        "summary": "Overall 2 years of experience in Full Stack Web Development.
+                    Application Development, Testing and Documentation.",
+    },
+
+    "education": [{
+       "qualification": "B.E in Electronics and Communication",
+       "year": "2016",
+       "institution": "Ramdeobaba College of Engineering and Management,Nagpur",
+       "score": "7.3 CGPA" 
+    },
+    {
+       "qualification": "HSC Maharashtra State",
+       "year": "2012",
+       "institution": "SMP Junior College, Gondia",
+       "score": "90%"    
+    },
+    {
+       "qualification": "SSC CBSE",
+       "year": "2010",
+       "institution": "Gondia Public School, Gondia",
+       "score": "93.2%" 
+    }],
+
+    "achievement": "The Hitavada Best Student Award, Scholarship Merit Student",
+
+    "professionalProfile": [{
+        "organization": "BNY Mellon Technology India Pvt Ltd.",
+        "city": "Pune",
+        "role": "Application Developer",
+        "periodOfEmployment": [{
+            "start": "July 2016",
+            "end": "July 2016"
+        }]
+    }]
+
+    "skills": [{
+        "languages": [{"Javascript","HTML","CSS","SQL"}],
+        "standardsAndFrameworks": [{"Bootstrap","AJAX","JSON","DOM","RESTful","XML","JQuery"}],
+        "developmentTools": [{"Eclipse IDE","Visual Studio Code"}],
+        "versionControl": "GIT"
+    }],
+
+    "project": [{
+        "name": "Managed Investment | Multiple Research Providers - PAS | BNY Mellon ",
+        "duration": "March - June 2018",
+        "description": "The purpose of the project is to provide dual access to the Research Providers on the Ticker Search Tool.",
+        "personalContribution": [{
+            "Developed UI as per requirement gathering",
+            "Troubleshooting production logs in short timeframes",
+            "Designing unit test cases using JUNIT & Mockito",
+        }]
+        "tools": [{"Eclipse","GIT","Browser Dev Tools"}],
+        "technologies": [{"Javascript","Java","RESTful Web Services","HTML4","XHTML2","CSS3"}]
+    }]
+
+    
+}
