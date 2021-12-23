@@ -1,21 +1,21 @@
 Create your own resume data in JSON format.
 ====>
 {
-    "personalDetails": {
+    "personalDetails": [{
         "email": "deeksha18495@gmail.com",
         "name": "Deeksha Tripathi",
         "position": "Application Developer",
         "phone": "+917709048056",
-        "location": {
+        "location": [{
             "address": "Q.No E30/1 Railway Colony",
             "pinCode": "481776",
             "city": "Nainpur",
             "state": "Madhya Pradesh",
             "country": "India",
-        }
+        }]
         "summary": "Overall 2 years of experience in Full Stack Web Development.
                     Application Development, Testing and Documentation.",
-    },
+    }],
 
     "education": [{
        "qualification": "B.E in Electronics and Communication",
